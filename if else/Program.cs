@@ -30,6 +30,8 @@ namespace if_else
                 Console.WriteLine(firstnumber / secondnumber);
             }    
             Console.ReadLine();
+            Console.ReadLine();
+
         }
     }
 }

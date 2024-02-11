@@ -1,0 +1,7 @@
+C:\Users\Катерина\source\repos\def\def\obj\Debug\def.csproj.AssemblyReference.cache
+C:\Users\Катерина\source\repos\def\def\obj\Debug\def.csproj.CoreCompileInputs.cache
+C:\Users\Катерина\source\repos\def\def\bin\Debug\def.exe.config
+C:\Users\Катерина\source\repos\def\def\bin\Debug\def.exe
+C:\Users\Катерина\source\repos\def\def\bin\Debug\def.pdb
+C:\Users\Катерина\source\repos\def\def\obj\Debug\def.exe
+C:\Users\Катерина\source\repos\def\def\obj\Debug\def.pdb

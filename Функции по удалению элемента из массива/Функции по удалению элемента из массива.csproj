@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E5ECE37-8869-4293-8348-73A7EC2C9D90}</ProjectGuid>
+    <ProjectGuid>{CC651AA8-D391-4E83-ACFC-196D39783C33}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Функция_добавления_эелемента_под_опр_индексом_в_массиве</RootNamespace>
-    <AssemblyName>Функция добавления эелемента под опр индексом в массиве</AssemblyName>
+    <RootNamespace>Функции_по_удалению_элемента_из_массива</RootNamespace>
+    <AssemblyName>Функции по удалению элемента из массива</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -10,27 +10,71 @@ namespace if_else
     {
         static void Main(string[] args)
         {
-            double firstnumber = double.Parse(Console.ReadLine());
-            string mark = Console.ReadLine();
-            double secondnumber = double.Parse(Console.ReadLine());
-            if (mark == "+")
-            {
-                Console.WriteLine(firstnumber + secondnumber);
+            
+            for(int i = 0; i < 10; i++)
+            {        
+                for (int l = 0; l <= i; l++)
+                {
+                    Console.Write("#");
+                    
+                }
+                Console.WriteLine();
             }
-            if (mark == "-")
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+            for (int r = 0; r < 10; r++)
             {
-                Console.WriteLine(firstnumber - secondnumber);
+                for (int k = 10; k > r; k--)
+                {
+                    Console.Write("#");
+
+                }
+                Console.WriteLine();
             }
-            if (mark == "*")
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+            for (int b = 0; b < 10; b++)
             {
-                Console.WriteLine(firstnumber * secondnumber);
+                for (int j = 9; b <= j; j--)
+                {
+                    Console.Write(" ");
+
+                }
+               
+                for (int z = 0; b >= z; z++)
+                {
+                    Console.Write("#");
+
+                }
+                Console.WriteLine();
             }
-            else
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+            for (int b = 0; b < 10; b++)
             {
-                Console.WriteLine(firstnumber / secondnumber);
-            }    
+                
+                for (int j = 0; b > j; j++)
+                {
+                    Console.Write(" ");
+
+                }
+                
+                for (int z = 10; b < z; z--)
+                {
+                    Console.Write("#");
+
+                }
+                Console.WriteLine();
+            }
             Console.ReadLine();
-            Console.ReadLine();
+
+
 
         }
     }

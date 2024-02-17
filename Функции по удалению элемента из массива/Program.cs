@@ -35,7 +35,7 @@ namespace Функции_по_удалению_элемента_из_масси�
             
         }
 
-        static void secondelement(ref int[] array)
+        static void lastelement(ref int[] array)
         {
            firstMassiv(ref array, array.Length - 1);
 
@@ -44,7 +44,7 @@ namespace Функции_по_удалению_элемента_из_масси�
         static void Main(string[] args)
         {
             int[] myarray = { 1, 2, 3 };
-            secondelement(ref myarray);
+            lastelement(ref myarray);
 
 
         }

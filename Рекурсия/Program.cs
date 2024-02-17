@@ -31,7 +31,7 @@ namespace Рекурсия
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
        // Вывод суммы цифр любого числа с помощью рекурсии
-        static void sumVolue(int volue, int number = 0, int result = 0)
+        /*static void sumVolue(int volue, int number = 0, int result = 0)
         {
             if (volue != 0)
             {
@@ -45,11 +45,27 @@ namespace Рекурсия
 
         static void Main(string[] args)
         {
-            int Volue = 0;
+            int Volue = 123;
             sumVolue(Volue);
 
+        }*/
+
+        static int sumVolue(int volue)
+        {
+            if (volue < 10)
+            {
+                return volue;
+            }
+            return volue % 10 + sumVolue(volue / 10);
         }
 
+
+        static void Main(string[] args)
+        {
+            int Volue = 123;
+            int result = sumVolue(Volue);
+
+        }
 
     }
 }
